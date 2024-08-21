@@ -1,0 +1,130 @@
+/* universal */
+*{
+    font-family: 'open sans';
+    
+}
+
+*>h2{
+    text-align: center;
+}
+
+body{
+    margin: 0%;
+}
+
+/* header */
+.header{
+    width: 100%;
+    background-color: aquamarine;
+    
+}
+
+.header1{
+    display: flex;
+    margin-left: 30px;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+    text-align: center;
+    /* width: 60%; */
+    /* border: 1px solid black; */
+}
+
+.photo-profile{
+    border-radius: 50%;
+    width: 100px;
+
+}
+
+/* introduce */
+.introduce{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.myself{
+    text-align: center;
+}
+
+
+.container-introduce{
+   margin-bottom: 20px; 
+}
+
+
+/* Project */
+.gambar > img{
+    width: 300px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.project-card{
+    border: 2px solid black;
+    width: 300px;
+    height: 400px;
+    border-radius: 5px;
+}
+
+.project-context{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.project-card .text,.judul{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: black;
+}
+.github{
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: black;
+    color: white;
+    margin-left: 10px;
+    padding: 5px;
+}
+
+.github:hover{
+    border: 1px solid rgb(165, 144, 144);
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+
+.btn{
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: black;
+    color: white;
+    margin-left: 10px;
+    padding: 5px;
+}
+
+.btn:hover{
+    border: 1px solid rgb(165, 144, 144);
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
